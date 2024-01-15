@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - openjdk8
+  - openjdk11
+
+script: mvn -Popendj test -B
+
+notifications:
+  irc: "irc.libera.chat#lsc-project"
